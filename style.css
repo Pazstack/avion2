@@ -1,0 +1,38 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#ocean{
+    background-image: url("../img/d.jpg");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+.player{
+    width:85px;
+    height: 60px;
+    position: absolute;
+    background-image:  url("../img/heli.gif");
+    /* transform:rotate(180deg); */
+    left: 100px;
+    top: 100px;
+}
+
+.enemy{
+    width:100px;
+    height:70px;
+    position: absolute;
+    background-image: url("../img/avion.gif");
+    left: 300px;
+}
+
+.missile{
+    width:3px;
+    height:10px;
+    position: absolute;
+    background-color: black;
+    
+}
